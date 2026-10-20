@@ -7,11 +7,11 @@ Skills e agentes são **instruções que o Claude segue no computador de cada pe
 | Camada | O que faz |
 |---|---|
 | **Repositório privado** | Só colaboradores convidados veem o conteúdo. |
-| **`main` protegida** | Ninguém faz push direto. Toda mudança entra por Pull Request com aprovação e CI verde. |
+| **Regra da `main`** | Combinado do time: ninguém faz push direto, toda mudança entra por Pull Request com aprovação e CI verde. **Atenção:** no plano gratuito, o GitHub não aplica regras de branch em repositório privado. Para bloquear tecnicamente, é preciso o GitHub Pro (conta pessoal) ou uma organização no plano Team. |
 | **CODEOWNERS** | Mudanças em skills, agentes, scripts e CI pedem revisão do responsável. |
 | **Validador** (`scripts/validar.ps1`) | Bloqueia skill sem frontmatter ou sem README, nomes duplicados, arquivos proibidos (`.env`, chaves, executáveis), segredos conhecidos e padrões perigosos (script baixado e executado direto, desligar permissões, instruções que manipulam a IA). |
 | **Varredura de segredos** (Gitleaks no CI) | Procura tokens e chaves em todo PR e push. |
-| **Proteção do GitHub** | Secret scanning e push protection quando disponíveis no plano, além de alertas do Dependabot. |
+| **Proteção do GitHub** | Grafo de dependências, alertas do Dependabot (vulnerabilidade e malware) e atualizações de segurança automáticas estão ligados. O secret scanning nativo não existe para repositório privado no plano gratuito; essa função fica com o Gitleaks no CI. |
 | **Revisão humana** | Toda skill nova ou importada é lida por alguém antes de entrar. Veja "Importar uma skill de fora" no [CONTRIBUTING](CONTRIBUTING.md). |
 
 ## Regras para quem contribui

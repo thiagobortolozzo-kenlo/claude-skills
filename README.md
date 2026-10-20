@@ -84,7 +84,7 @@ Detalhes em [docs/ESTRUTURA.md](docs/ESTRUTURA.md).
 
 ## Contribuir
 
-Quer adicionar a sua skill ou melhorar uma existente? Siga o [CONTRIBUTING](CONTRIBUTING.md). Em resumo: crie uma branch, copie o [template](templates/skill/), escreva o `SKILL.md` e o `README.md`, rode o validador e abra um Pull Request. A `main` é protegida e tudo entra por PR revisado.
+Quer adicionar a sua skill ou melhorar uma existente? Siga o [CONTRIBUTING](CONTRIBUTING.md). Em resumo: crie uma branch, copie o [template](templates/skill/), escreva o `SKILL.md` e o `README.md`, rode o validador e abra um Pull Request. Combinado do time: ninguém faz push direto na `main`, tudo entra por PR revisado.
 
 Viu uma skill boa por aí? Confira o [radar de skills](docs/radar-kursku.md) e abra uma issue **"Sugerir skill"**.
 

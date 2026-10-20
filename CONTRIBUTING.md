@@ -1,6 +1,6 @@
 # Como contribuir
 
-Qualquer pessoa do time pode adicionar ou melhorar uma skill ou um agente. Tudo entra por **Pull Request**. A branch `main` é protegida e não aceita push direto.
+Qualquer pessoa do time pode adicionar ou melhorar uma skill ou um agente. Tudo entra por **Pull Request**. Combinado do time: **ninguém faz push direto na `main`**. No plano gratuito, o GitHub não consegue bloquear isso tecnicamente num repositório privado (veja o [SECURITY](SECURITY.md)), então vale a regra combinada.
 
 ## Fluxo
 

@@ -8,6 +8,7 @@ claude-skills/
 ├── SECURITY.md             regras e proteções de segurança
 ├── CHANGELOG.md            histórico de mudanças
 ├── NOTICE.md               origem e licenças das skills de terceiros
+├── .gitleaks.toml          exceções conhecidas da varredura de segredos
 ├── install.ps1             instalador para Windows
 ├── install.sh              instalador para macOS/Linux
 │
