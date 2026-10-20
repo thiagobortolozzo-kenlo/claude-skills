@@ -45,16 +45,21 @@ function Resumo($nome, $fm) {
   $r -replace '\|', '/'
 }
 
+function Sort-Ordinal($items, [string]$prop) {
+  # Ordena pelo código de cada caractere (em hexadecimal), igual no Windows e no Linux (o CI)
+  @($items) | Sort-Object { $v = if ($prop) { $_.$prop } else { $_ }; (([string]$v).ToCharArray() | ForEach-Object { '{0:X4}' -f [int]$_ }) -join '' }
+}
+
 function Write-Lines($path, $lines) { [IO.File]::WriteAllLines($path, [string[]]$lines, $utf8) }
 
 $catalogo = @(); $indiceAgentes = @(); $totalSkills = 0; $totalAgentes = 0
-foreach ($area in $areas.Keys | Sort-Object) {
+foreach ($area in (Sort-Ordinal @($areas.Keys))) {
   $titulo = $areas[$area].Titulo; $desc = $areas[$area].Descricao
   $skillDir = Join-Path $root "skills/$area"; $agentDir = Join-Path $root "agents/$area"
 
   $linhasSkills = @()
   if (Test-Path $skillDir) {
-    foreach ($s in Get-ChildItem $skillDir -Directory | Sort-Object Name) {
+    foreach ($s in (Sort-Ordinal (Get-ChildItem $skillDir -Directory) Name)) {
       $md = Join-Path $s.FullName 'SKILL.md'; if (-not (Test-Path $md)) { Write-Warning "Sem SKILL.md: $area/$($s.Name)"; continue }
       $fm = Get-Frontmatter $md; $nome = if ($fm.name) { $fm.name } else { $s.Name }
       $linhasSkills += "| [**$($s.Name)**]($($s.Name)/README.md) | ``/$nome`` | $(Resumo $s.Name $fm) | $(Get-Requisitos $s.FullName) |"
@@ -62,7 +67,7 @@ foreach ($area in $areas.Keys | Sort-Object) {
   }
   $linhasAgentes = @()
   if (Test-Path $agentDir) {
-    foreach ($a in Get-ChildItem $agentDir -Directory | Sort-Object Name) {
+    foreach ($a in (Sort-Ordinal (Get-ChildItem $agentDir -Directory) Name)) {
       $md = Join-Path $a.FullName 'AGENT.md'; if (-not (Test-Path $md)) { Write-Warning "Sem AGENT.md: agents/$area/$($a.Name)"; continue }
       $fm = Get-Frontmatter $md
       $linhasAgentes += "| [**$($a.Name)**]($($a.Name)/README.md) | $(Resumo $a.Name $fm) |"
@@ -89,7 +94,7 @@ foreach ($area in $areas.Keys | Sort-Object) {
 }
 
 $topo = @('# Catálogo', '', '> Gerado por `scripts/gerar-catalogo.ps1`. Não edite à mão.', '', "**$totalSkills skills** e **$totalAgentes agentes** em $($areas.Count) áreas. Clique no nome de qualquer item para ver como ele funciona.", '', '## Áreas', '')
-$topo += $areas.Keys | Sort-Object | ForEach-Object { "- [$($areas[$_].Titulo)](#$((($areas[$_].Titulo).ToLower() -replace '[^\p{L}\p{N} -]', '' -replace ' ', '-')))" }
+$topo += (Sort-Ordinal @($areas.Keys)) | ForEach-Object { "- [$($areas[$_].Titulo)](#$((($areas[$_].Titulo).ToLower() -replace '[^\p{L}\p{N} -]', '' -replace ' ', '-')))" }
 Write-Lines (Join-Path $root 'CATALOGO.md') ($topo + @('') + $catalogo)
 Write-Lines (Join-Path $root 'agents/README.md') (@('# Agentes', '', 'Subagentes do Claude Code, separados pela mesma área das skills. Cada agente fica em `agents/<área>/<nome>/` com o `AGENT.md` (o que o Claude lê) e um `README.md` (a explicação para pessoas).', '') + $indiceAgentes + @('[← Catálogo completo](../CATALOGO.md)'))
 Write-Host "OK: $totalSkills skills, $totalAgentes agentes."

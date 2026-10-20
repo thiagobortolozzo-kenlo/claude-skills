@@ -25,15 +25,15 @@ Clique no nome para ver a explicação completa de como a skill funciona.
 | [**market-brand**](market-brand/README.md) | `/market-brand` | Analisa a voz da marca e gera um guia de tom e estilo. | — |
 | [**market-competitors**](market-competitors/README.md) | `/market-competitors` | Inteligência competitiva: compara posicionamento, oferta e canais dos concorrentes. | — |
 | [**market-funnel**](market-funnel/README.md) | `/market-funnel` | Analisa o funil de vendas ponta a ponta e aponta onde se perde conversão. | — |
+| [**market-launch**](market-launch/README.md) | `/market-launch` | Plano de lançamento de produto ou feature, com cronograma e canais. | — |
+| [**market-proposal**](market-proposal/README.md) | `/market-proposal` | Monta proposta comercial ou de projeto de marketing pronta para enviar. | — |
+| [**market-report**](market-report/README.md) | `/market-report` | Relatório de marketing em Markdown com achados e recomendações. | — |
+| [**market-report-pdf**](market-report-pdf/README.md) | `/market-report-pdf` | Mesmo relatório, gerado em PDF com layout. | — |
 | [**marketing-council**](marketing-council/README.md) | `/marketing-council` | Conselho de especialistas virtuais que debatem uma decisão de marketing. | — |
 | [**marketing-ideas**](marketing-ideas/README.md) | `/marketing-ideas` | Banco de ideias de marketing adaptadas ao seu produto e estágio. | — |
 | [**marketing-loops**](marketing-loops/README.md) | `/marketing-loops` | Desenha loops de crescimento (aquisição que gera mais aquisição). | — |
 | [**marketing-plan**](marketing-plan/README.md) | `/marketing-plan` | Plano de marketing completo: diagnóstico, metas, canais, orçamento e calendário. | — |
 | [**marketing-psychology**](marketing-psychology/README.md) | `/marketing-psychology` | Gatilhos e vieses de comportamento aplicados a páginas, ofertas e mensagens. | — |
-| [**market-launch**](market-launch/README.md) | `/market-launch` | Plano de lançamento de produto ou feature, com cronograma e canais. | — |
-| [**market-proposal**](market-proposal/README.md) | `/market-proposal` | Monta proposta comercial ou de projeto de marketing pronta para enviar. | — |
-| [**market-report**](market-report/README.md) | `/market-report` | Relatório de marketing em Markdown com achados e recomendações. | — |
-| [**market-report-pdf**](market-report-pdf/README.md) | `/market-report-pdf` | Mesmo relatório, gerado em PDF com layout. | — |
 | [**offers**](offers/README.md) | `/offers` | Constrói a oferta: bônus, garantia, ancoragem e percepção de valor. | — |
 | [**pricing**](pricing/README.md) | `/pricing` | Estratégia e estrutura de preços, planos e pacotes. | — |
 | [**product-marketing**](product-marketing/README.md) | `/product-marketing` | Posicionamento, mensagem e narrativa de produto para vender melhor. | — |

@@ -42,15 +42,15 @@ Planejamento, posicionamento, preço, oferta, concorrência, lançamento e marke
 | [**market-brand**](skills/01-marketing-estrategia/market-brand/README.md) | `/market-brand` | Analisa a voz da marca e gera um guia de tom e estilo. | — |
 | [**market-competitors**](skills/01-marketing-estrategia/market-competitors/README.md) | `/market-competitors` | Inteligência competitiva: compara posicionamento, oferta e canais dos concorrentes. | — |
 | [**market-funnel**](skills/01-marketing-estrategia/market-funnel/README.md) | `/market-funnel` | Analisa o funil de vendas ponta a ponta e aponta onde se perde conversão. | — |
+| [**market-launch**](skills/01-marketing-estrategia/market-launch/README.md) | `/market-launch` | Plano de lançamento de produto ou feature, com cronograma e canais. | — |
+| [**market-proposal**](skills/01-marketing-estrategia/market-proposal/README.md) | `/market-proposal` | Monta proposta comercial ou de projeto de marketing pronta para enviar. | — |
+| [**market-report**](skills/01-marketing-estrategia/market-report/README.md) | `/market-report` | Relatório de marketing em Markdown com achados e recomendações. | — |
+| [**market-report-pdf**](skills/01-marketing-estrategia/market-report-pdf/README.md) | `/market-report-pdf` | Mesmo relatório, gerado em PDF com layout. | — |
 | [**marketing-council**](skills/01-marketing-estrategia/marketing-council/README.md) | `/marketing-council` | Conselho de especialistas virtuais que debatem uma decisão de marketing. | — |
 | [**marketing-ideas**](skills/01-marketing-estrategia/marketing-ideas/README.md) | `/marketing-ideas` | Banco de ideias de marketing adaptadas ao seu produto e estágio. | — |
 | [**marketing-loops**](skills/01-marketing-estrategia/marketing-loops/README.md) | `/marketing-loops` | Desenha loops de crescimento (aquisição que gera mais aquisição). | — |
 | [**marketing-plan**](skills/01-marketing-estrategia/marketing-plan/README.md) | `/marketing-plan` | Plano de marketing completo: diagnóstico, metas, canais, orçamento e calendário. | — |
 | [**marketing-psychology**](skills/01-marketing-estrategia/marketing-psychology/README.md) | `/marketing-psychology` | Gatilhos e vieses de comportamento aplicados a páginas, ofertas e mensagens. | — |
-| [**market-launch**](skills/01-marketing-estrategia/market-launch/README.md) | `/market-launch` | Plano de lançamento de produto ou feature, com cronograma e canais. | — |
-| [**market-proposal**](skills/01-marketing-estrategia/market-proposal/README.md) | `/market-proposal` | Monta proposta comercial ou de projeto de marketing pronta para enviar. | — |
-| [**market-report**](skills/01-marketing-estrategia/market-report/README.md) | `/market-report` | Relatório de marketing em Markdown com achados e recomendações. | — |
-| [**market-report-pdf**](skills/01-marketing-estrategia/market-report-pdf/README.md) | `/market-report-pdf` | Mesmo relatório, gerado em PDF com layout. | — |
 | [**offers**](skills/01-marketing-estrategia/offers/README.md) | `/offers` | Constrói a oferta: bônus, garantia, ancoragem e percepção de valor. | — |
 | [**pricing**](skills/01-marketing-estrategia/pricing/README.md) | `/pricing` | Estratégia e estrutura de preços, planos e pacotes. | — |
 | [**product-marketing**](skills/01-marketing-estrategia/product-marketing/README.md) | `/product-marketing` | Posicionamento, mensagem e narrativa de produto para vender melhor. | — |

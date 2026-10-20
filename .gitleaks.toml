@@ -1,0 +1,13 @@
+# Configuração do Gitleaks (varredura de segredos no CI).
+# Usa as regras padrão e libera só valores fictícios conhecidos, usados em exemplos e testes de skills.
+# Para liberar um novo falso positivo, adicione o valor exato abaixo e explique no PR. Nunca libere uma pasta inteira.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Valores fictícios usados em exemplos e evals"
+regexTarget = "match"
+regexes = [
+  '''sk_live_123abc''',
+]
