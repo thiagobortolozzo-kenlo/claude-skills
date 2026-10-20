@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problema de segurança (segredo vazado, skill perigosa)
+    url: https://github.com/thiagobortolozzo-kenlo/claude-skills/blob/main/SECURITY.md
+    about: Não abra issue pública com detalhes sensíveis. Leia o SECURITY.md e fale direto com o Thiago.
+  - name: Guia rápido de uso
+    url: https://github.com/thiagobortolozzo-kenlo/claude-skills/blob/main/docs/COMO-USAR.md
+    about: Como instalar, usar e atualizar as skills.

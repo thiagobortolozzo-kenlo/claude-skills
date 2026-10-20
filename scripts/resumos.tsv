@@ -1,0 +1,157 @@
+nome	resumo
+market	Orquestrador da suíte de marketing: entende o pedido e chama a skill market-* certa.
+market-audit	Auditoria completa de marketing de um site ou empresa, com nota e plano de ação.
+market-brand	Analisa a voz da marca e gera um guia de tom e estilo.
+market-competitors	Inteligência competitiva: compara posicionamento, oferta e canais dos concorrentes.
+market-funnel	Analisa o funil de vendas ponta a ponta e aponta onde se perde conversão.
+market-launch	Plano de lançamento de produto ou feature, com cronograma e canais.
+market-proposal	Monta proposta comercial ou de projeto de marketing pronta para enviar.
+market-report	Relatório de marketing em Markdown com achados e recomendações.
+market-report-pdf	Mesmo relatório, gerado em PDF com layout.
+marketing-council	Conselho de especialistas virtuais que debatem uma decisão de marketing.
+marketing-ideas	Banco de ideias de marketing adaptadas ao seu produto e estágio.
+marketing-loops	Desenha loops de crescimento (aquisição que gera mais aquisição).
+marketing-plan	Plano de marketing completo: diagnóstico, metas, canais, orçamento e calendário.
+marketing-psychology	Gatilhos e vieses de comportamento aplicados a páginas, ofertas e mensagens.
+product-marketing	Posicionamento, mensagem e narrativa de produto para vender melhor.
+launch	Estratégia de lançamento (Product Hunt, beta, waitlist, anúncio de feature).
+pricing	Estratégia e estrutura de preços, planos e pacotes.
+offers	Constrói a oferta: bônus, garantia, ancoragem e percepção de valor.
+content-strategy	Decide o que produzir: pilares, clusters e calendário editorial.
+customer-research	Pesquisa com clientes: entrevistas, VOC, jobs-to-be-done e síntese.
+competitor-profiling	Gera dossiês de concorrentes a partir das URLs deles.
+competitors	Cria páginas de comparação e "alternativa a X" para SEO e vendas.
+co-marketing	Encontra parceiros e planeja campanhas conjuntas.
+community-marketing	Estratégia para criar e crescer uma comunidade (Discord, Slack, WhatsApp, fórum).
+influencer-marketing	Planeja campanhas com influenciadores: seleção, briefing e medição.
+public-relations	Assessoria de imprensa: pautas, press release e relacionamento com jornalistas.
+events	Marketing de eventos e webinars: antes, durante e depois.
+referrals	Programa de indicação e afiliados.
+b2b-marketing	Marketing B2B em PT-BR: ICP, ABM, geração de demanda e ciclo de venda longo.
+saas-marketing	Marketing para SaaS em PT-BR: aquisição, ativação, retenção e expansão.
+real-estate-marketing	Marketing imobiliário em PT-BR: captação de leads, lançamentos, tour virtual e portais.
+copywriting	Escreve copy de páginas (home, landing, preços, features) sem vícios de IA.
+copy-editing	Revisa e melhora textos existentes, cortando excesso e cara de IA.
+avoid-ai-writing	Audita e reescreve textos removendo 21 padrões típicos de escrita de IA.
+market-copy	Analisa e gera copy dentro da suíte market-*.
+emails	E-mails de ciclo de vida: boas-vindas, nutrição, reengajamento, win-back.
+market-emails	Gera sequências de e-mail dentro da suíte market-*.
+sms	Campanhas e automações por SMS.
+cold-email	Prospecção fria B2B: e-mails, follow-ups, LinkedIn e entregabilidade.
+lead-magnets	Cria iscas digitais (e-book, checklist, template) que geram leads.
+free-tools	Ferramentas gratuitas como aquisição (calculadoras, geradores).
+linkedin-post	Posts de LinkedIn em PT-BR com gancho, estrutura e CTA.
+instagram-caption	Legendas de Instagram em PT-BR.
+carousel-creator	Roteiro de carrossel (Instagram/LinkedIn) slide a slide.
+review-response	Respostas a avaliações (Google, Reclame Aqui, redes) positivas e negativas.
+seo-audit	Auditoria técnica e on-page de SEO.
+market-seo	Auditoria de conteúdo para SEO dentro da suíte market-*.
+ai-seo	Otimização para buscadores de IA (ChatGPT, Perplexity, AI Overviews), llms.txt.
+schema	Dados estruturados (schema.org / JSON-LD).
+programmatic-seo	SEO programático: milhares de páginas a partir de templates e dados.
+site-architecture	Arquitetura de informação e estrutura de URLs do site.
+directory-submissions	Lista e prepara submissões a diretórios e marketplaces.
+local-seo	SEO local em PT-BR: NAP, citações, avaliações e mapa.
+google-business-optimizer	Otimização do Perfil da Empresa no Google (Google Meu Negócio).
+ads	Estratégia de mídia paga (Google, Meta, LinkedIn): público, lance e otimização.
+ad-creative	Gera e itera criativos e textos de anúncio em escala.
+market-ads	Gera criativos e copy de anúncios dentro da suíte market-*.
+market-landing	Analisa e cria landing pages dentro da suíte market-*.
+ab-testing	Planeja testes A/B: hipótese, tamanho de amostra e leitura do resultado.
+analytics	Rastreamento: GA4, GTM, eventos, UTMs e plano de tracking.
+attribution	Atribuição: qual canal gera receita de verdade (MTA, MMM, incrementalidade).
+cro	Otimização de conversão de páginas.
+signup	Otimiza o fluxo de cadastro.
+onboarding	Onboarding e ativação de usuários dentro do produto.
+popups	Pop-ups e modais de captura que convertem sem irritar.
+paywalls	Telas de upgrade e paywall in-app.
+churn-prevention	Reduz churn: fluxo de cancelamento, ofertas de retenção, dunning.
+aso	Otimização de ficha na App Store e Google Play.
+prospecting	Monta lista de prospecção e pesquisa de contas.
+sales-enablement	Material de vendas: battle cards, scripts, one-pagers.
+revops	Operação de receita: pipeline, CRM, handoff marketing-vendas.
+social	Estratégia de redes sociais: o que postar, onde e com que frequência.
+market-social	Calendário e conteúdo social dentro da suíte market-*.
+social-listening	Social listening em PT-BR: monitorar menções, sentimento e oportunidades.
+crisis-management-social	Gestão de crise em redes, da detecção à recuperação de reputação.
+reels-content-plan	Plano de Reels: formatos, ganchos e frequência.
+short-form-video-plan	Estratégia de vídeo curto (Reels, TikTok, Shorts, LinkedIn).
+content-repurposing	Transforma um conteúdo em vários formatos e canais.
+youtube-strategy	Estratégia de canal no YouTube: temas, SEO de vídeo, retenção.
+kenlo-social-scan	[Kenlo] Coleta comentários, DMs e menções das redes da Kenlo das últimas 24h.
+kenlo-social-triage	[Kenlo] Classifica o que é suporte/atendimento e valida no Kenlo Brain.
+kenlo-social-forward	[Kenlo] Rascunha e encaminha casos para o espaço Customer & Marketing no Google Chat.
+kenlo-social-reply-triage	[Kenlo] Separa elogios, críticas e parcerias que merecem resposta pública.
+kenlo-social-reply	[Kenlo] Rascunha respostas na voz da Kenlo ("nós da Kenlo") e publica após aprovação.
+whatsapp-scripts	Roteiros de conversa no WhatsApp para vendas e atendimento.
+chatbot-whatsapp	Desenho de chatbot de WhatsApp: fluxos, intents e handoff para humano.
+reactivation-sms-whatsapp	Réguas de reativação de clientes e leads frios por SMS e WhatsApp.
+whatsapp-community	Criar e gerir comunidades e grupos no WhatsApp.
+whatsapp-ads-click	Anúncios de clique para WhatsApp (Meta).
+whatsapp-cloud-api	Integração com a API oficial do WhatsApp (Meta): templates, webhooks, boilerplates Node e Python.
+crm-automation	Automação de CRM: lead scoring, cadências e integrações.
+n8n-workflow	Monta workflows no n8n (PT-BR).
+n8n-workflow-patterns	Padrões de arquitetura de workflows n8n reais (webhooks, APIs, filas).
+critique	Avalia o design de uma tela (hierarquia, arquitetura de informação, emoção) com feedback acionável.
+polish	Passada final antes de entregar: alinhamento, espaçamento e consistência.
+animate	Adiciona animações e microinterações com propósito.
+harden	Deixa a interface robusta: erros, textos longos, i18n e casos de borda.
+distill	Simplifica a interface tirando o que sobra.
+clarify	Melhora microcopy, mensagens de erro e rótulos da interface.
+delight	Adiciona toques de personalidade que tornam a experiência memorável.
+adapt	Adapta o design para outros tamanhos de tela e plataformas.
+colorize	Traz cor estratégica a telas monocromáticas.
+bolder	Deixa um design "seguro demais" mais marcante.
+quieter	Acalma um design visualmente agressivo.
+normalize	Alinha a tela ao design system (útil com o KDLS).
+teach-impeccable	Configuração única: grava o contexto de design do projeto no CLAUDE.md.
+fixing-accessibility	Audita e corrige acessibilidade (ARIA, teclado, foco, contraste).
+fixing-motion-performance	Corrige animações travando (layout thrashing, blur, scroll).
+ui-ux-pro-max	Base local de 50 estilos, 21 paletas e 50 pares de fontes para gerar design systems.
+product-design	Design de produto: sistemas visuais, fluxos de UX, tokens e handoff.
+theme-factory	10 temas prontos (cores e fontes) para slides, docs e páginas.
+frontend-slides	Apresentações HTML animadas, do zero ou convertendo um PPTX.
+scroll-experience	Páginas com parallax e storytelling guiado por scroll.
+screenshots	Gera prints de marketing do app com Playwright.
+favicon	Gera favicons em todos os tamanhos a partir de uma imagem.
+image	Criação e otimização de imagens de marketing (hero, social, banners, WebP).
+image-studio	Roteia o pedido de imagem para ai-studio-image (foto) ou stability-ai (arte/edição).
+ai-studio-image	Fotos realistas via Gemini (Google AI Studio). Precisa de GEMINI_API_KEY.
+stability-ai	Geração e edição de imagem via Stability AI (inpainting, upscale, remover fundo). Precisa de STABILITY_API_KEY.
+canvas-design	Pôsteres e peças visuais em PNG e PDF a partir de uma filosofia de design.
+algorithmic-art	Arte generativa em p5.js com parâmetros interativos.
+slack-gif-creator	GIFs animados otimizados para Slack e Chat (Python/Pillow, local).
+personal-brand-photography	Direção de fotos para marca pessoal (PT-BR).
+video	Produção de vídeo com IA ou código (Remotion, HeyGen, Veo, Runway...).
+video-social-pack	Corta vídeos longos em clipes 9:16 com legenda no padrão Kenlo e gera textos para cada rede.
+remotion	Boas práticas de Remotion: vídeo em React com legendas, áudio e animações.
+video-script	Roteiros de vídeo persuasivos (PT-BR).
+video-ads-structure	Estrutura de anúncios em vídeo: gancho, corpo e CTA (PT-BR).
+youtube-summarizer	Extrai a transcrição de um vídeo do YouTube e gera um resumo detalhado.
+lgpd-compliance-check	Checklist de conformidade com a LGPD.
+privacy-policy-generator	Gera política de privacidade.
+terms-of-service	Gera termos de uso.
+saas-agreement	Contrato de SaaS (assinatura, SLA, responsabilidade).
+data-processing-agreement	Acordo de tratamento de dados (DPA) entre controlador e operador.
+ai-usage-policy	Política interna de uso de IA.
+saas-metrics	Métricas de SaaS: MRR, churn, NRR, LTV, CAC, payback.
+unit-economics	Unit economics: margem por cliente, LTV/CAC e break-even.
+revenue-forecast	Previsão de receita com cenários.
+recurring-revenue-model	Modelagem de receita recorrente.
+client-health-score	Health score de clientes para antecipar churn.
+quarterly-business-review	Prepara e conduz QBRs (revisão trimestral com o cliente).
+client-onboarding	Onboarding de clientes B2B.
+airflow-dag-patterns	DAGs de Airflow de produção: operators, sensors, testes e deploy.
+dbt-transformation-patterns	dbt: organização de modelos, testes, documentação e incrementais.
+data-quality-frameworks	Qualidade de dados com Great Expectations, testes dbt e data contracts.
+postgres-best-practices	Performance e boas práticas de Postgres (Supabase).
+gitlab-ci-patterns	Pipelines de GitLab CI: estágios, cache e runners.
+kpi-dashboard-design	Desenho de dashboards de KPI: escolha de métricas e visualização.
+mermaid-expert	Diagramas Mermaid (fluxo, sequência, ER, arquitetura).
+market-competitive	Especialista em concorrência da auditoria /market audit: mapeia concorrentes, lacunas e diferenciais.
+market-content	Especialista em conteúdo da auditoria /market audit: avalia copy, clareza da mensagem e persuasão.
+market-conversion	Especialista em conversão (CRO) da auditoria /market audit: acha atritos e barreiras na jornada.
+market-strategy	Especialista em estratégia da auditoria /market audit: avalia posicionamento, preço e potencial de receita.
+market-technical	Especialista técnico da auditoria /market audit: SEO técnico, performance, tracking e arquitetura.
+kenlo-social-listener	[Kenlo] Rotina diária: lê as redes da Kenlo, separa quem precisa de suporte, valida no Kenlo Brain e rascunha o encaminhamento.
+kenlo-social-responder	[Kenlo] Rascunha respostas públicas a elogios, críticas e parcerias na voz da Kenlo; só publica com aprovação.

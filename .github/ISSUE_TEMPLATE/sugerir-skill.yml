@@ -1,0 +1,36 @@
+name: Sugerir skill de fora
+description: Sugira uma skill que existe em outro repositório (ex.: o radar do kursku)
+title: "[Sugestão] "
+labels: ["sugestao"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link ou nome da skill
+      description: Ex.: seo-cannibalization-detector (do docs/radar-kursku.md) ou a URL do repositório
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por que o time precisa dela?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Em que área entraria?
+      options:
+        - 01-marketing-estrategia
+        - 02-copy-conteudo
+        - 03-seo-busca
+        - 04-anuncios-conversao-vendas
+        - 05-redes-sociais
+        - 06-whatsapp-crm-automacao
+        - 07-design-ui
+        - 08-imagem-foto
+        - 09-video-motion
+        - 10-juridico-lgpd
+        - 11-financas-customer-success
+        - 12-dados-engenharia
+        - Não sei

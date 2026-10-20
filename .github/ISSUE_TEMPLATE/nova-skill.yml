@@ -1,0 +1,52 @@
+name: Nova skill ou agente
+description: Proponha uma skill ou agente que você quer criar
+title: "[Nova skill] "
+labels: ["nova-skill"]
+body:
+  - type: input
+    id: nome
+    attributes:
+      label: Nome proposto
+      description: minúsculo-com-hífen, ex. podcast-script
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - 01-marketing-estrategia
+        - 02-copy-conteudo
+        - 03-seo-busca
+        - 04-anuncios-conversao-vendas
+        - 05-redes-sociais
+        - 06-whatsapp-crm-automacao
+        - 07-design-ui
+        - 08-imagem-foto
+        - 09-video-motion
+        - 10-juridico-lgpd
+        - 11-financas-customer-success
+        - 12-dados-engenharia
+        - Área nova (explique abaixo)
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Que problema resolve?
+      description: O que você faz hoje à mão e que a skill faria.
+    validations:
+      required: true
+  - type: textarea
+    id: exemplos
+    attributes:
+      label: Exemplos de pedido
+      description: Frases que alguém digitaria para acionar a skill.
+  - type: checkboxes
+    id: riscos
+    attributes:
+      label: A skill vai…
+      options:
+        - label: executar código ou scripts
+        - label: usar chave de API ou serviço externo
+        - label: publicar, enviar mensagem ou alterar algo fora do computador

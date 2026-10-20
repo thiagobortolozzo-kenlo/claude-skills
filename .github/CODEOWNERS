@@ -1,0 +1,14 @@
+# Quem revisa cada parte do repo. A última regra que casar vence.
+# Quando houver responsáveis por área, adicione-os na linha da pasta (ex.: /skills/07-design-ui/ @pessoa-design).
+
+*                       @thiagobortolozzo-kenlo
+
+/skills/                @thiagobortolozzo-kenlo
+/agents/                @thiagobortolozzo-kenlo
+
+# Partes sensíveis: sempre o mantenedor
+/scripts/               @thiagobortolozzo-kenlo
+/.github/               @thiagobortolozzo-kenlo
+/install.ps1            @thiagobortolozzo-kenlo
+/install.sh             @thiagobortolozzo-kenlo
+/SECURITY.md            @thiagobortolozzo-kenlo

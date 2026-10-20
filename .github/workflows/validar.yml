@@ -1,0 +1,55 @@
+name: Validação
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  estrutura:
+    name: Estrutura e catálogo
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Validar skills, agentes e padrões de segurança
+        shell: pwsh
+        run: ./scripts/validar.ps1
+
+      - name: Conferir se o catálogo está atualizado
+        shell: pwsh
+        run: |
+          ./scripts/gerar-catalogo.ps1
+          git diff --exit-code -- CATALOGO.md skills/*/README.md agents/README.md agents/*/README.md
+          if ($LASTEXITCODE -ne 0) { Write-Error 'Catálogo desatualizado: rode scripts/gerar-catalogo.ps1 e faça commit.'; exit 1 }
+
+      - name: Conferir sintaxe do install.sh
+        run: bash -n install.sh
+
+  segredos:
+    name: Varredura de segredos
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: false
+          GITLEAKS_ENABLE_SUMMARY: true

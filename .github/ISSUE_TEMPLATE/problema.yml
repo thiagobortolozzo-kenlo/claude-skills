@@ -1,0 +1,28 @@
+name: Problema em skill, agente ou instalador
+description: Algo não funcionou como esperado
+title: "[Problema] "
+labels: ["bug"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Qual skill, agente ou script?
+    validations:
+      required: true
+  - type: textarea
+    id: pedido
+    attributes:
+      label: O que você pediu ao Claude ou rodou
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu e o que você esperava
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Windows/macOS, app desktop/terminal/VS Code
