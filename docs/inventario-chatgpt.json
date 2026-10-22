@@ -1,0 +1,549 @@
+{
+  "date": "2026-10-22",
+  "scope": "Retrato dos recursos expostos nesta sessao. Nao representa todos os GPTs da conta nem todo o workspace.",
+  "executor_entries": 61,
+  "cloud_entries": 51,
+  "unique_names": 67,
+  "marketing_equivalents": 9,
+  "kenlo_workflows": 2,
+  "reference_only": 56,
+  "items": [
+    {
+      "name": "imagegen",
+      "area": "visualizacao",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "openai-docs",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "ad-creative",
+      "area": "04-anuncios-conversao-vendas",
+      "decision": "equivalente-preservado",
+      "destination": "skills/04-anuncios-conversao-vendas/ad-creative",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "cold-email",
+      "area": "02-copy-conteudo",
+      "decision": "equivalente-preservado",
+      "destination": "skills/02-copy-conteudo/cold-email",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "copywriting",
+      "area": "02-copy-conteudo",
+      "decision": "equivalente-preservado",
+      "destination": "skills/02-copy-conteudo/copywriting",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "email-sequence",
+      "area": "02-copy-conteudo",
+      "decision": "equivalente-preservado",
+      "destination": "skills/02-copy-conteudo/emails",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "marketing-ideas",
+      "area": "01-marketing-estrategia",
+      "decision": "equivalente-preservado",
+      "destination": "skills/01-marketing-estrategia/marketing-ideas",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "marketing-psychology",
+      "area": "01-marketing-estrategia",
+      "decision": "equivalente-preservado",
+      "destination": "skills/01-marketing-estrategia/marketing-psychology",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "paid-ads",
+      "area": "04-anuncios-conversao-vendas",
+      "decision": "equivalente-preservado",
+      "destination": "skills/04-anuncios-conversao-vendas/ads",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "seo-audit",
+      "area": "03-seo-busca",
+      "decision": "equivalente-preservado",
+      "destination": "skills/03-seo-busca/seo-audit",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "social-content",
+      "area": "05-redes-sociais",
+      "decision": "equivalente-preservado",
+      "destination": "skills/05-redes-sociais/social",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "equivalencia funcional pelo escopo e documentacao; nao afirma igualdade de arquivos"
+    },
+    {
+      "name": "Presentations",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "Spreadsheets",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "documents",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "pdf",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-batch-edit-photos",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-create-mockups",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-create-social-variations",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-design-from-template",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-edit-quick-cut",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-fonts",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "app-69312da8e4dc81919370cb86fd172b6c:adobe-retouch-portraits",
+      "area": "design-imagem",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "answers-charts:answers-charts",
+      "area": "visualizacao",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "answers-images:answers-images",
+      "area": "visualizacao",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "static-app-previews:static-app-previews",
+      "area": "sites",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "browser:control-browser",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "answers-ask-user-input:answers-ask-user-input",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:answers-ask-user-input",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-setup-pet",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "google-drive:google-docs",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "google-drive:google-drive",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "google-drive:google-drive-comments",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "google-drive:google-sheets",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "google-drive:google-slides",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "heygen:heygen-workflows",
+      "area": "video",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "answers-image-picker:answers-image-picker",
+      "area": "visualizacao",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "answers-learning:answers-learning",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "openai-library:library",
+      "area": "documentos-arquivos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "pages:maintain-space",
+      "area": "conteudo-espacos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "pages:manage-schedules",
+      "area": "conteudo-espacos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "pages:organize-space",
+      "area": "conteudo-espacos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "pages:write-page",
+      "area": "conteudo-espacos",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "personal-context:personal-context",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "work-pets:create-pet",
+      "area": "pets-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "work-pets:pets",
+      "area": "pets-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "work-pets:update-pet",
+      "area": "pets-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "plugin-creator:create-plugin",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "plugin-creator:prepare-plugin-submission",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "plugin-creator:starter-workflow",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "plugin-creator:update-plugin",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "plugin-management:plugin-management",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "resolve-recipients:resolve-recipients",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "sites:sites",
+      "area": "sites",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "sites:sites-remix",
+      "area": "sites",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "template-creator:template-creator",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "windsor-ai:windsor",
+      "area": "dados-marketing",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "work-skill-creator:skill-creator",
+      "area": "autoria-integracoes",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "work-visualize:visualize",
+      "area": "visualizacao",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "writing-blocks:writing-blocks",
+      "area": "operacao-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "Lançando um Podcast Passo a Passo",
+      "area": "operacao-chatgpt",
+      "decision": "adaptado-kenlo",
+      "destination": "skills/09-video-motion/kenlo-podcast",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "instrucoes completas lidas; adaptar caminhos, dados e continuidade"
+    },
+    {
+      "name": "Novidade Kenlo",
+      "area": "operacao-chatgpt",
+      "decision": "adaptado-kenlo",
+      "destination": "skills/02-copy-conteudo/kenlo-novidade",
+      "dependency": "Claude Code e material fornecido pelo usuario",
+      "comparison": "instrucoes completas lidas; adaptar caminhos, dados e continuidade"
+    },
+    {
+      "name": "demos:onboarding-artifact-creation",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-email",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-learn-writing-style",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-messaging",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-parallel-research",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    },
+    {
+      "name": "demos:onboarding-website-creation",
+      "area": "onboarding-chatgpt",
+      "decision": "somente-referencia",
+      "destination": null,
+      "dependency": "ChatGPT e capacidades do app correspondente; nao portado",
+      "comparison": "somente metadados inventariados; corpo e licenca nao redistribuidos"
+    }
+  ]
+}
+
