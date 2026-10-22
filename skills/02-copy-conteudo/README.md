@@ -2,8 +2,8 @@
 
 Textos de página, e-mail, SMS, prospecção e posts, sem cara de IA.
 
-**14 skills**
-
+**15 skills**
+ e **1 agentes** ([ver agentes](../../agents/02-copy-conteudo/README.md))
 .
 
 Clique no nome para ver a explicação completa de como a skill funciona.
@@ -18,6 +18,7 @@ Clique no nome para ver a explicação completa de como a skill funciona.
 | [**emails**](emails/README.md) | `/emails` | E-mails de ciclo de vida: boas-vindas, nutrição, reengajamento, win-back. | — |
 | [**free-tools**](free-tools/README.md) | `/free-tools` | Ferramentas gratuitas como aquisição (calculadoras, geradores). | — |
 | [**instagram-caption**](instagram-caption/README.md) | `/instagram-caption` | Legendas de Instagram em PT-BR. | — |
+| [**kenlo-novidade**](kenlo-novidade/README.md) | `/kenlo-novidade` | [Kenlo] Comunicação de novidades em seis formatos a partir da documentação do produto. | — |
 | [**lead-magnets**](lead-magnets/README.md) | `/lead-magnets` | Cria iscas digitais (e-book, checklist, template) que geram leads. | — |
 | [**linkedin-post**](linkedin-post/README.md) | `/linkedin-post` | Posts de LinkedIn em PT-BR com gancho, estrutura e CTA. | — |
 | [**market-copy**](market-copy/README.md) | `/market-copy` | Analisa e gera copy dentro da suíte market-*. | — |
