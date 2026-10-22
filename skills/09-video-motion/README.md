@@ -2,14 +2,15 @@
 
 Cortes para redes, vídeo em código (Remotion), roteiros e resumos de vídeo.
 
-**6 skills**
-
+**7 skills**
+ e **1 agentes** ([ver agentes](../../agents/09-video-motion/README.md))
 .
 
 Clique no nome para ver a explicação completa de como a skill funciona.
 
 | Skill | Como chamar | Para que serve | Requer |
 |---|---|---|---|
+| [**kenlo-podcast**](kenlo-podcast/README.md) | `/kenlo-podcast` | [Kenlo] Publicação e divulgação de podcast por etapas, com aprovação entre entregas. | — |
 | [**remotion**](remotion/README.md) | `/remotion-best-practices` | Boas práticas de Remotion: vídeo em React com legendas, áudio e animações. | ffmpeg |
 | [**video**](video/README.md) | `/video` | Produção de vídeo com IA ou código (Remotion, HeyGen, Veo, Runway...). | ffmpeg |
 | [**video-ads-structure**](video-ads-structure/README.md) | `/video-ads-structure` | Estrutura de anúncios em vídeo: gancho, corpo e CTA (PT-BR). | — |

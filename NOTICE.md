@@ -29,3 +29,9 @@ Em outubro de 2026, as skills e os agentes `market-*` ganharam o frontmatter (`n
 ## Conteúdo interno
 
 As rotinas `kenlo-social-*` citam IDs internos da Kenlo: o espaço do Google Chat e os IDs das páginas no Meta, LinkedIn e YouTube. Não são segredos, mas são internos. Por isso o repositório precisa continuar **privado**. Os exemplos com dados de clientes reais foram trocados por exemplos fictícios.
+
+## Fluxos personalizados da Kenlo (22/10/2026)
+
+`kenlo-novidade` e `kenlo-podcast` foram adaptados das instruções dos agentes personalizados Novidade Kenlo e Lançando um Podcast Passo a Passo, expostas na sessão e incluídas por solicitação da usuária para uso interno neste repositório privado. Os arquivos não concedem licença pública nem incluem Knowledge, anexos ou conexões do ChatGPT. Cada fluxo tem uma única skill canônica; os agentes apenas a pré-carregam.
+
+Os demais recursos expostos pelo ChatGPT foram catalogados somente por metadados e decisão de migração, sem cópia de corpos, scripts ou assets de terceiros. As nove skills de marketing equivalentes já existentes foram preservadas. Consulte [o inventário](docs/INVENTARIO-CHATGPT.md) para o mapeamento.

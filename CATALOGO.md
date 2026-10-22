@@ -2,7 +2,7 @@
 
 > Gerado por `scripts/gerar-catalogo.ps1`. Não edite à mão.
 
-**149 skills** e **7 agentes** em 12 áreas. Clique no nome de qualquer item para ver como ele funciona.
+**151 skills** e **9 agentes** em 12 áreas. Clique no nome de qualquer item para ver como ele funciona.
 
 ## Áreas
 
@@ -85,12 +85,19 @@ Textos de página, e-mail, SMS, prospecção e posts, sem cara de IA.
 | [**emails**](skills/02-copy-conteudo/emails/README.md) | `/emails` | E-mails de ciclo de vida: boas-vindas, nutrição, reengajamento, win-back. | — |
 | [**free-tools**](skills/02-copy-conteudo/free-tools/README.md) | `/free-tools` | Ferramentas gratuitas como aquisição (calculadoras, geradores). | — |
 | [**instagram-caption**](skills/02-copy-conteudo/instagram-caption/README.md) | `/instagram-caption` | Legendas de Instagram em PT-BR. | — |
+| [**kenlo-novidade**](skills/02-copy-conteudo/kenlo-novidade/README.md) | `/kenlo-novidade` | [Kenlo] Comunicação de novidades em seis formatos a partir da documentação do produto. | — |
 | [**lead-magnets**](skills/02-copy-conteudo/lead-magnets/README.md) | `/lead-magnets` | Cria iscas digitais (e-book, checklist, template) que geram leads. | — |
 | [**linkedin-post**](skills/02-copy-conteudo/linkedin-post/README.md) | `/linkedin-post` | Posts de LinkedIn em PT-BR com gancho, estrutura e CTA. | — |
 | [**market-copy**](skills/02-copy-conteudo/market-copy/README.md) | `/market-copy` | Analisa e gera copy dentro da suíte market-*. | — |
 | [**market-emails**](skills/02-copy-conteudo/market-emails/README.md) | `/market-emails` | Gera sequências de e-mail dentro da suíte market-*. | — |
 | [**review-response**](skills/02-copy-conteudo/review-response/README.md) | `/review-response` | Respostas a avaliações (Google, Reclame Aqui, redes) positivas e negativas. | — |
 | [**sms**](skills/02-copy-conteudo/sms/README.md) | `/sms` | Campanhas e automações por SMS. | — |
+
+### Agentes · [ver área](agents/02-copy-conteudo/README.md)
+
+| Agente | Para que serve |
+|---|---|
+| [**kenlo-novidade**](agents/02-copy-conteudo/kenlo-novidade/README.md) | [Kenlo] Comunicação de novidades em seis formatos a partir da documentação do produto. |
 
 ## SEO e busca
 
@@ -239,12 +246,19 @@ Cortes para redes, vídeo em código (Remotion), roteiros e resumos de vídeo.
 
 | Skill | Como chamar | Para que serve | Requer |
 |---|---|---|---|
+| [**kenlo-podcast**](skills/09-video-motion/kenlo-podcast/README.md) | `/kenlo-podcast` | [Kenlo] Publicação e divulgação de podcast por etapas, com aprovação entre entregas. | — |
 | [**remotion**](skills/09-video-motion/remotion/README.md) | `/remotion-best-practices` | Boas práticas de Remotion: vídeo em React com legendas, áudio e animações. | ffmpeg |
 | [**video**](skills/09-video-motion/video/README.md) | `/video` | Produção de vídeo com IA ou código (Remotion, HeyGen, Veo, Runway...). | ffmpeg |
 | [**video-ads-structure**](skills/09-video-motion/video-ads-structure/README.md) | `/video-ads-structure` | Estrutura de anúncios em vídeo: gancho, corpo e CTA (PT-BR). | — |
 | [**video-script**](skills/09-video-motion/video-script/README.md) | `/video-script` | Roteiros de vídeo persuasivos (PT-BR). | — |
 | [**video-social-pack**](skills/09-video-motion/video-social-pack/README.md) | `/video-social-pack` | Corta vídeos longos em clipes 9:16 com legenda no padrão Kenlo e gera textos para cada rede. | ffmpeg |
 | [**youtube-summarizer**](skills/09-video-motion/youtube-summarizer/README.md) | `/youtube-summarizer` | Extrai a transcrição de um vídeo do YouTube e gera um resumo detalhado. | Python |
+
+### Agentes · [ver área](agents/09-video-motion/README.md)
+
+| Agente | Para que serve |
+|---|---|
+| [**kenlo-podcast**](agents/09-video-motion/kenlo-podcast/README.md) | [Kenlo] Publicação e divulgação de podcast por etapas, com aprovação entre entregas. |
 
 ## Jurídico e LGPD
 

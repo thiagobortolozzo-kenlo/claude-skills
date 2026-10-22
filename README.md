@@ -4,9 +4,13 @@ Biblioteca do time de **skills** e **agentes** para o Claude Code, organizada po
 
 [![Validação](https://github.com/thiagobortolozzo-kenlo/claude-skills/actions/workflows/validar.yml/badge.svg)](https://github.com/thiagobortolozzo-kenlo/claude-skills/actions/workflows/validar.yml)
 
-**149 skills · 7 agentes · 12 áreas** · [Catálogo completo](CATALOGO.md) · [Guia rápido](docs/COMO-USAR.md) · [Como contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md)
+**151 skills · 9 agentes · 12 áreas** · [Catálogo completo](CATALOGO.md) · [Guia rápido](docs/COMO-USAR.md) · [Como contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md)
 
 ---
+
+## Fluxos da Kenlo disponíveis no ChatGPT
+
+Foram adicionados os fluxos **Novidade Kenlo** e **Lançando um Podcast Passo a Passo**, com uma skill canônica e um agente por fluxo. Veja o [inventário comparativo de 67 entradas](docs/INVENTARIO-CHATGPT.md), com correspondências, dependências e limites de migração. Recursos exclusivos de apps são referências, sem redistribuição de suas instruções.
 
 ## O que é isso
 
@@ -20,14 +24,14 @@ Cada skill e cada agente tem um `README.md` explicando, em português, para que 
 | Área | Skills | Agentes | Exemplos |
 |---|:-:|:-:|---|
 | [01 · Marketing e estratégia](skills/01-marketing-estrategia/README.md) | 31 | [5](agents/01-marketing-estrategia/README.md) | plano de marketing, preço, concorrência, marketing imobiliário |
-| [02 · Copy e conteúdo](skills/02-copy-conteudo/README.md) | 14 | — | copy de página, e-mail, LinkedIn, texto sem cara de IA |
+| [02 · Copy e conteúdo](skills/02-copy-conteudo/README.md) | 15 | [1](agents/02-copy-conteudo/README.md) | copy de página, e-mail, LinkedIn, texto sem cara de IA |
 | [03 · SEO e busca](skills/03-seo-busca/README.md) | 9 | — | auditoria de SEO, SEO para IA, Google Meu Negócio |
 | [04 · Anúncios, conversão e vendas](skills/04-anuncios-conversao-vendas/README.md) | 17 | — | Meta/Google Ads, A/B, CRO, churn, RevOps |
 | [05 · Redes sociais](skills/05-redes-sociais/README.md) | 13 | [2](agents/05-redes-sociais/README.md) | Reels, YouTube, social listening, gestão de crise |
 | [06 · WhatsApp, CRM e automação](skills/06-whatsapp-crm-automacao/README.md) | 9 | — | chatbot de WhatsApp, API da Meta, n8n |
 | [07 · Design e UI](skills/07-design-ui/README.md) | 22 | — | crítica e polimento de telas, acessibilidade, slides |
 | [08 · Imagem e foto](skills/08-imagem-foto/README.md) | 8 | — | geração de imagem (Gemini, Stability), pôsteres, GIFs |
-| [09 · Vídeo e motion](skills/09-video-motion/README.md) | 6 | — | cortes 9:16, Remotion, roteiros |
+| [09 · Vídeo e motion](skills/09-video-motion/README.md) | 7 | [1](agents/09-video-motion/README.md) | cortes 9:16, Remotion, roteiros |
 | [10 · Jurídico e LGPD](skills/10-juridico-lgpd/README.md) | 6 | — | termos, privacidade, DPA, LGPD |
 | [11 · Finanças SaaS e CS](skills/11-financas-customer-success/README.md) | 7 | — | MRR, forecast, health score, QBR |
 | [12 · Dados e engenharia](skills/12-dados-engenharia/README.md) | 7 | — | Airflow, dbt, Postgres, GitLab CI |

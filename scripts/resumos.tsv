@@ -155,3 +155,5 @@ market-strategy	Especialista em estratégia da auditoria /market audit: avalia p
 market-technical	Especialista técnico da auditoria /market audit: SEO técnico, performance, tracking e arquitetura.
 kenlo-social-listener	[Kenlo] Rotina diária: lê as redes da Kenlo, separa quem precisa de suporte, valida no Kenlo Brain e rascunha o encaminhamento.
 kenlo-social-responder	[Kenlo] Rascunha respostas públicas a elogios, críticas e parcerias na voz da Kenlo; só publica com aprovação.
+kenlo-novidade	[Kenlo] Comunicação de novidades em seis formatos a partir da documentação do produto.
+kenlo-podcast	[Kenlo] Publicação e divulgação de podcast por etapas, com aprovação entre entregas.
